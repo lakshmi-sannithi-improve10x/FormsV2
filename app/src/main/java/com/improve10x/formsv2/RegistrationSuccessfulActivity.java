@@ -17,7 +17,7 @@ public class RegistrationSuccessfulActivity extends AppCompatActivity {
         TextView emailTxt = findViewById(R.id.email_txt);
         emailTxt.setText(emailAddress);
 
-        String userName = intent.getStringExtra("Username");
+        String userName = intent.getStringExtra("username");
         TextView userNameTxt = findViewById(R.id.username_txt);
         userNameTxt.setText(userName);
 

@@ -89,7 +89,7 @@
 
     <LinearLayout
         android:layout_width="match_parent"
-        android:layout_height="match_parent"
+        android:layout_height="wrap_content"
         android:orientation="horizontal">
 
         <Button
@@ -101,7 +101,7 @@
 
         <LinearLayout
             android:layout_width="match_parent"
-            android:layout_height="match_parent"
+            android:layout_height="wrap_content"
             android:gravity="right"
             android:orientation="horizontal">
 
@@ -112,4 +112,12 @@
                 android:text="Next" />
         </LinearLayout>
     </LinearLayout>
+
+    <TextView
+        android:id="@+id/personal_txt"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="10dp"
+        android:text="Result"
+        android:textSize="20sp" />
 </LinearLayout>
